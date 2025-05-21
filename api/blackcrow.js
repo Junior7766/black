@@ -2,7 +2,7 @@ export default function handler(req, res) {
   const code = req.query.activecode;;
 
   // Lista de códigos válidos
-  const codigosValidos = ['1111', 'junior', 'carlos'];
+  const codigosValidos = ['test', 'junior7766'];
 
   if (codigosValidos.includes(code)) {
     const conteudo = `
