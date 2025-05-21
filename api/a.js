@@ -2,7 +2,7 @@ export default function handler(req, res) {
   const code = req.query.mac;
 
   // Lista de códigos válidos
-  const codigosValidos = ['1', 'junior', 'carlos'];
+  const codigosValidos = ['1'];
 
   if (codigosValidos.includes(code)) {
     const conteudo = `
