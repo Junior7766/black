@@ -1,5 +1,5 @@
 export default function handler(req, res) {
-  const code = req.query.mac;
+  const code = req.query.mac99;
 
   // Lista de códigos válidos
   const codigosValidos = ['1'];
